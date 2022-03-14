@@ -6,6 +6,7 @@
 # 依赖
 
  - @antfu/eslint-config
+ - eslint
  - eslint-plugin-vue
  - typescript
 
