@@ -26,6 +26,7 @@
       "error",
       "1tbs"
     ],
+    "no-console": "off", // 允许使用console
     "@typescript-eslint/brace-style": ["error", "1tbs"]
   },
   "env": {
