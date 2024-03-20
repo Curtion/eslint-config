@@ -35,9 +35,9 @@ export default antfu(
   }),
   {
     rules: {
-      'no-console': 'error', // 允许使用console
-      'curly': 'error', // if等语句添加大括号
-      'brace-style': '1tbs', // 大括号不换行
+      'no-console': ['off'], // 允许使用console
+      'style/brace-style': ['error', '1tbs'], // 大括号风格
+      'curly': ['error', 'all'], // 控制语句后必须有{}
     },
   },
 )
