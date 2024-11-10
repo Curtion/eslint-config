@@ -48,6 +48,6 @@ export default antfu(
 
 ```json
 {
-  "eslint.experimental.useFlatConfig": true
+  "eslint.useFlatConfig": true
 }
 ```
