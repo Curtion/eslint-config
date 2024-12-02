@@ -5,9 +5,7 @@
 
 # 依赖
 
- - @antfu/eslint-config
- - eslint
- - @eslint/eslintrc (可选)
+`pnpm install eslint @antfu/eslint-config`
 
 # 配置
 
