@@ -13,9 +13,6 @@
 
 ```javascript
 import antfu from '@antfu/eslint-config'
-import { FlatCompat } from '@eslint/eslintrc'
-
-const compat = new FlatCompat()
 
 export default antfu(
   {
@@ -23,14 +20,6 @@ export default antfu(
     vue: true,
     ignores: [],
   },
-  ...compat.config({
-    root: true,
-    parserOptions: {},
-    extends: [],
-    plugins: [],
-    env: {},
-    overrides: [],
-  }),
   {
     rules: {
       'no-console': ['off'], // 允许使用console
@@ -41,11 +30,3 @@ export default antfu(
 )
 ```
 
-
-`.vscode/settings.json`：
-
-```json
-{
-  "eslint.useFlatConfig": true
-}
-```
